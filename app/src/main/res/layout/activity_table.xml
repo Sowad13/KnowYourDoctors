@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#30111a"
+    tools:context=".TableActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow android:id="@+id/Header">
+
+            <TextView
+                android:layout_width="390dp"
+                android:layout_height="match_parent"
+                android:paddingTop="30dp"
+                android:paddingBottom="30dp"
+                android:text="Select Field"
+                android:textAlignment="center"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#FFFFFF"
+                android:textSize="35dp" />
+        </TableRow>
+
+        <TableRow android:id="@+id/orthopedic">
+
+            <TextView
+                android:id="@+id/ortho"
+                android:layout_width="250dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:text="Orthopedic"
+                android:textColor="#FFFFFF"
+                android:textSize="35dp" />
+
+        </TableRow>
+
+        <TableRow android:id="@+id/cardiology">
+
+            <TextView
+                android:id="@+id/cardi"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:text="Cardiology"
+
+                android:textColor="#FFFFFF"
+                android:textSize="35dp" />
+
+        </TableRow>
+
+        <TableRow android:id="@+id/neurology">
+
+            <TextView
+                android:id="@+id/neuro"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:text="Neurology"
+
+                android:textColor="#FFFFFF"
+                android:textSize="35dp" />
+
+        </TableRow>
+
+        <TableRow android:id="@+id/eurology">
+
+            <TextView
+                android:id="@+id/euro"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:text="Eurology"
+
+                android:textColor="#FFFFFF"
+                android:textSize="35dp" />
+
+        </TableRow>
+
+        <TableRow android:id="@+id/ents">
+
+            <TextView
+                android:id="@+id/ent"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+
+                android:text="E.N.T"
+                android:textColor="#FFFFFF"
+                android:textSize="35dp" />
+
+
+        </TableRow>
+
+
+        <TableRow android:id="@+id/eye">
+
+            <TextView
+                android:id="@+id/eyes"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+
+                android:text="Eye Specialist"
+                android:textColor="#FFFFFF"
+                android:textSize="35dp" />
+
+        </TableRow>
+
+        <TableRow android:id="@+id/dentist">
+
+            <TextView
+                android:id="@+id/dent"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:text="Dentist"
+
+                android:textColor="#FFFFFF"
+                android:textSize="35dp" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="650dp"
+        android:text="PROCEED" />
+
+
+</RelativeLayout>
+
+
